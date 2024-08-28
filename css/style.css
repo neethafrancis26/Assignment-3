@@ -49,6 +49,7 @@ body {
 #landing-section {
   margin: 0;
   padding: 0;
+  max-width: 1600px;
   background-image: url("../images/BG.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -94,6 +95,7 @@ header {
 .cart1 {
   height: 15px;
   width: 15px;
+  z-index: 500;
 }
 
 .cart2 {
@@ -101,6 +103,8 @@ header {
   width: 15px;
   margin-top: -5px;
   margin-left: -8px;
+  z-index: 1000;
+  padding-right: 5px;
 }
 nav ul {
   list-style: none;
@@ -126,10 +130,11 @@ nav ul li a {
   margin-right: 20px;
   text-decoration: none;
   color: black;
+  
 }
 
 .header-actions .cart img {
-  width: 24px;
+  width: 20px;
   height: auto;
 }
 
@@ -292,25 +297,26 @@ span {
 
 .info-image img {
   max-width: 100%;
-  height: auto;
+  height: 478px;
+  width: 520px;
 }
 .section-head {
   display: flex;
   flex: 2;
   flex-wrap: wrap;
   max-width: 100%;
+  justify-content: space-between;
 }
 
 .info-details {
   flex: 2;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .details {
   width: 45%;
-  padding: 20px;
+  padding: 5px;
   text-align: left;
 }
 
