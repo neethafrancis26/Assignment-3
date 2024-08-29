@@ -357,6 +357,7 @@ span {
   height: 478px;
   width: 520px;
   object-fit: cover;
+  padding-bottom: 10px;
 }
 .section-head {
   display: flex;
@@ -466,7 +467,7 @@ span {
 }
 
 .number-box img {
-  max-width: 50px;
+  max-width: 110px;
   margin-bottom: 15px;
 }
 
