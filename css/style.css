@@ -4,7 +4,33 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+.nav-cart{
+  width: 124px;
+  height: 48px;
+  gap: 8px;
+  display: flex;
+  padding: 16px 2px;
+}
 
+.nav-cart p{
+  color: #000;
+}
+.cart-logo{
+  width: 24px;
+  height: 24px;
+}
+.cart-badge{
+  width: 17px;
+  height: 18px;
+  margin-left: 14px;
+  top: 16px;
+  background-color: #00A8A8;
+  color: #FFFFFF;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 12px;
+  position: absolute;
+}
 .poppins-regular {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -59,7 +85,8 @@ body {
 }
 
 .land-sec .sec-land {
-  max-width: 1400px;
+  width: 1280px;
+  height: 741px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -172,13 +199,13 @@ nav ul li a {
 
 .hero-text {
   font-family: "Poppins", sans-serif;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 0 0 0;
 }
 
 .hero-text h2 {
-  font-size: 120px;
-  font-weight: 700px;
+  font-size: 108px;
+  font-weight: 800px;
   margin-bottom: 10px;
 }
 
@@ -198,21 +225,22 @@ nav ul li a {
 
 .hero-image {
   position: relative;
-  width: 1200px;
-  height: 100%;
+  width: 1220px;
+  height: 576px;
 }
 .under {
   width: 750px;
   height: 600px;
-  left: -84px;
+  left: 16px;
   position: absolute;
   bottom: 46px;
+  object-fit: contain;
 }
 .over {
   height: 666px;
   width: 1250px;
   bottom: 100px;
-  right: -250px;
+  right: -418px;
   position: absolute;
   z-index: 1;
   bottom: -130px;
@@ -243,7 +271,8 @@ span {
 }
 
 .section-works .work-sec {
-  max-width: 1400px;
+  max-width: 1280px;
+  height: 640px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -402,7 +431,8 @@ span {
 }
 
 .section-numbers .content {
-  max-width: 1400px;
+  max-width: 1280px;
+  height: 471px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -464,7 +494,8 @@ span {
 }
 
 .sec-num .con {
-  max-width: 1400px;
+  width: 1280px;
+  height: 812px;
   margin: 0 auto;
   padding: 0 20px;
   color: black;
@@ -525,7 +556,8 @@ span {
   justify-content: space-between;
   align-items: center;
   padding: 0px;
-  max-width: 1200px;
+  width: 1280px;
+  height: 646px;
   margin: 0 auto;
   color: black;
 }
@@ -637,6 +669,7 @@ footer {
 
 .footer .foot {
   display: flex;
-  max-width: 1400px;
+  max-width: 1280px;
+  /* height: 136px; */
   margin: 0 auto;
 }
