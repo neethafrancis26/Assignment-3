@@ -112,7 +112,7 @@ header {
 }
 
 .main-head .main {
-  max-width: 1400px;
+  width: 1280px;
   margin: 0 40px;
   padding: 0 20px;
   display: flex;
@@ -670,7 +670,6 @@ footer {
 
 .footer .foot {
   display: flex;
-  max-width: 1280px;
-  /* height: 136px; */
+  width: 1200px;
   margin: 0 auto;
 }
