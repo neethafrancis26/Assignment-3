@@ -96,7 +96,7 @@ header {
   align-items: center;
   padding: 18px 86px;
   background-color: #fff;
-  height: 60px;
+  height: 80px;
   position: fixed;
   width: 100%;
   z-index: 1000;
@@ -116,6 +116,7 @@ header {
   margin: 0 40px;
   padding: 0 20px;
   display: flex;
+  /* height: 100px; */
 }
 
 .navbar {
@@ -164,7 +165,7 @@ nav ul li a {
 .header-actions {
   display: flex;
   align-items: center;
-  padding-left: 200px;
+  padding-left: 270px;
 }
 
 .header-actions .cart {
@@ -278,10 +279,10 @@ span {
 }
 
 .section-works h2 {
-  font-size: 40px;
+  font-size: 25px;
   color: #161e21;
   font-family: Genos;
-  font-weight: 900;
+  font-weight: 1100;
   line-height: 60.5px;
   text-align: left;
 }
