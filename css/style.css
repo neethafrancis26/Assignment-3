@@ -112,7 +112,7 @@ header {
 }
 
 .main-head .main {
-  width: 1280px;
+  max-width: 1300px;
   margin: 0 40px;
   padding: 0 20px;
   display: flex;
@@ -122,6 +122,10 @@ header {
 .navbar {
   display: flex;
   align-items: center;
+}
+
+.navbar .logo {
+  margin-right: 30px;
 }
 
 .logo {
@@ -154,12 +158,13 @@ nav ul {
 }
 
 nav ul li {
-  margin: 0 20px;
+  margin: 0 15px;
 }
 
 nav ul li a {
   text-decoration: none;
   color: #000;
+  white-space: nowrap;
 }
 
 .header-actions {
