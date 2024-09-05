@@ -685,7 +685,7 @@ footer {
 
 @media(max-width: 1024px){
   .section-works .work-sec{
-    height: 789px;
+    height: 830px;
   }
 
   .num-box{
@@ -813,6 +813,27 @@ footer {
     padding-left: 393px;
     padding-right: 46px;
   }
+
+  .over{
+    right: -438px;
+    bottom: -209px;
+  }
+
+  .under{
+    left: -211px;
+    bottom: -83px;
+  }
+
+  .step{
+    max-width: 306px;
+
+  }
+
+  .section-head{
+    flex-direction: column;
+  }
+
+  
 
 }
 
