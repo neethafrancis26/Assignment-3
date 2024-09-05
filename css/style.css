@@ -765,7 +765,8 @@ nav .fa {
   }
 
   .fa-bars:before {
-    margin-left: -53px;
+    margin-left: 14px;
+    color: black;
 
   }
 
@@ -834,6 +835,10 @@ nav .fa {
 
   nav{
     margin-right: 350px;
+  }
+  
+  .navbar{
+    margin-right: -94px;
   }
 
   .hero-text h2{
@@ -982,13 +987,18 @@ nav .fa {
   }
 
   .header-actions{
-    padding-left: 163px;
-    padding-right: 70px;
+    padding-left: 212px;
+    padding-right: 21px;
   }
 
   nav{
     right: -471px;
   } 
+
+  .fa-bars:before {
+    margin-left: 15px;
+    color: black;
+  }
 }
 
 @media(max-width:430px){
@@ -999,7 +1009,7 @@ nav .fa {
   }
 
   .section-works h2{
-    font-size: 20px;
+    font-size: 30px;
     line-height: 42.5px;
   }
 
@@ -1088,6 +1098,20 @@ nav .fa {
     padding-left: 105px;
   }
 
+  .app-details{
+    max-width: 435px;
+  }
+
+  .app-buttons{
+    gap: 0px;
+    max-width: 430px;
+  }
+
+  .footer .foot{
+    max-width: 430px;
+    flex-direction: column;
+  }
+
   .app-buttons a img{
     width: 97px;
     margin-left: 93px;
@@ -1096,11 +1120,11 @@ nav .fa {
   .logo img{
     width: 234px;
     height: 34px;
-    padding-left: 139px;
+    padding-left: 160px;
   }
 
   .nav-cart{
-    margin-left: -349px;
+    margin-left: -331px;
   }
 
   .navbar{
@@ -1131,11 +1155,13 @@ nav .fa {
 
   nav{
 
-    right: -440px;
+    right: -294px;
+    background: #00ccc1;
   }
 
   .fa-bars:before {
-    margin-left: -68px;
+    margin-left: 14px;
+    color: black;
   }
 
   .hero-section{
@@ -1155,5 +1181,6 @@ nav .fa {
     bottom: -130px;
     left: -619px;
   }
+  
 }
 
