@@ -308,9 +308,6 @@ span {
 
 .work-steps {
   display: flex;
-  /* flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px; */
 }
 
 .step {
@@ -526,7 +523,6 @@ span {
   background-color: #fff;
   color: #161e21;
   flex: 1;
-  /* padding: 20px; */
   margin: 10px;
   text-align: center;
   max-width: 380px;
@@ -682,10 +678,6 @@ footer {
   margin: 0 auto;
 }
 
-nav .fa {
-  /* display: none; */
-}
-
 
 @media(max-width: 1024px){
   .section-works .work-sec{
@@ -702,15 +694,11 @@ nav .fa {
 
   .num-box img{
     max-width: 177px;
-    /* margin-bottom: -17px; */
   }
 
   .sec-num .con{
    width: 1024px;
   } 
-
-  
-
 
   .phone-mockup img{
   height: 534px;
@@ -746,7 +734,6 @@ nav .fa {
     font-size: 20px;
     cursor: pointer;
     color: black;
-    /* display: none; */
   }
   .navbar{
     flex-direction: column;
@@ -756,7 +743,6 @@ nav .fa {
 
   nav ul {
     display: list-item;
-    /* display: none; */
   }
 
   nav ul li {
@@ -773,7 +759,6 @@ nav .fa {
   nav{
     padding-top: 20px;
     position:absolute;
-    /* background:rgb(27, 191, 191); */
     height:50vh;
     width: 150px;
     margin-right: 113px;
