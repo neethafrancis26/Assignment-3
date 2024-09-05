@@ -993,6 +993,10 @@ footer {
     font-size: 11px;
   }
 
+  #works {
+    padding: 30px 0;
+  }
+
   .section-works h2{
     font-size: 30px;
     line-height: 42.5px;
@@ -1023,31 +1027,41 @@ footer {
     font-size: 21px;
   }
 
+  .section-numbers p{
+    margin-bottom: 19px;
+  }
+
   .number-box{
-    padding: 21px;
+    padding: 26px;
+    height: 159px;
   }
 
   #numbers-section{
-    height: 665px;
+    height: 611px;
   }
 
   .num-box p {
     max-width: 338px;
     text-align: center;
+    margin-bottom: -15px;
   }
 
   .num-box{
-    margin-left: 50px;
     width: 225px;
+    margin-left: 26px;
+  }
+
+  .num-box a{
+   font-size: 14px;
   }
 
   .sec-num h2{
-    max-width: 331px;
+    max-width: 377px;
   }
 
   .num-row{
     flex-direction: column;
-    width: 350px;
+    width: 290px;
   }
 
   .num-box h3{
@@ -1060,52 +1074,56 @@ footer {
   }
 
   .ct-button{
-    margin-left: -78px;
+    margin-left: auto;
   }
 
   .app-section{
     display: flex;
     flex-direction: column;
-    width: 376px;
+    width: 320px;
     height: 730px;
   }
 
   .app-details h2{
-    font-size: 28px;
+    font-size: 22px;
     line-height: 15.2px;
     margin-top: -295px;
-    padding-left: 96px;
-    max-width: 415px;
+    padding-left: 66px;
+    max-width: 330px;
   }
 
   .app-details p{
-    max-width: 401px;
-    padding-left: 105px;
+    max-width: 305px;
+    padding-left: 66px;
   }
 
   .app-details{
-    max-width: 435px;
+    max-width: 320px;
   }
 
   .app-buttons{
     gap: 0px;
-    max-width: 430px;
+    max-width: 425px;
   }
 
   .footer .foot{
-    max-width: 430px;
+    max-width: 425px;
     flex-direction: column;
   }
 
   .app-buttons a img{
-    width: 97px;
+    width: 67px;
     margin-left: 93px;
   }
 
+  .app-buttons a {
+    width: 84px;
+  }
+
   .logo img{
-    width: 234px;
+    width: 251px;
     height: 34px;
-    padding-left: 160px;
+    padding-left: 177px;
   }
 
   .nav-cart{
@@ -1113,7 +1131,7 @@ footer {
   }
 
   .navbar{
-    margin-right: -26px;
+    margin-right: -60px;
   }
 
   .header-actions{
@@ -1125,7 +1143,7 @@ footer {
   }
 
   .sec-num .con{
-    width: 425px;
+    width: 320px;
   }
 
   .step{
@@ -1140,7 +1158,7 @@ footer {
 
   nav{
 
-    right: -294px;
+    right: -391px;
     background: #00ccc1;
   }
 
@@ -1156,15 +1174,35 @@ footer {
   .over{
     height: 304px;
     width: 544px;
-    bottom: -133px;
+    bottom: -228px;
     right: 657px;
   }
 
   .under{
     height: 436px;
     width: 923px;
-    bottom: -130px;
+    bottom: -233px;
     left: -619px;
+  }
+
+  .footer-right{
+    justify-content: normal;
+    margin-left: 36px;      
+  }
+
+  .footer-center{
+    justify-content: left;
+    margin-left: -8px;
+    margin-bottom: 5px;
+  }
+
+  .footer-left{
+    margin-left: 35px;       
+     margin-bottom: 5px;
+  }
+
+  .land-sec .sec-land{
+    height: 775px;
   }
   
 }
