@@ -23,7 +23,7 @@
   width: 17px;
   height: 18px;
   margin-left: 14px;
-  top: 16px;
+  top: 25px;
   background-color: #00a8a8;
   color: #ffffff;
   border-radius: 50%;
@@ -154,6 +154,7 @@ header {
 nav ul {
   list-style: none;
   display: flex;
+  padding-top: 26px;
 }
 
 nav ul li {
@@ -225,7 +226,7 @@ nav ul li a {
   text-decoration: none;
   color: #fff;
   border-radius: 5px;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .hero-image {
@@ -234,21 +235,22 @@ nav ul li a {
   height: 576px;
 }
 .under {
-  width: 750px;
-  height: 600px;
-  left: 16px;
+  width: 951px;
+  height: 678px;
+  left: -121px;
   position: absolute;
-  bottom: 46px;
+  bottom: -21px;
   object-fit: contain;
 }
 .over {
   height: 666px;
-  width: 1250px;
+  width: 1479px;
   bottom: 100px;
-  right: -418px;
+  right: -512px;
   position: absolute;
   z-index: 1;
-  bottom: -130px;
+  bottom: -178px;
+  object-fit: contain;
 }
 span {
   content: "\2794";
@@ -278,15 +280,15 @@ span {
 
 .section-works .work-sec {
   max-width: 1280px;
-  height: 640px;
+  height: 709px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
 .section-works h2 {
-  font-size: 25px;
+  font-size: 50px;
   color: #161e21;
-  font-family: Genos;
+  font-family: poppins;
   font-weight: 1100;
   line-height: 60.5px;
   text-align: left;
@@ -313,9 +315,10 @@ span {
 .step {
   flex: 300px;
   padding: 10px;
-  max-width: 300px;
+  max-width: 250px;
   text-align: center;
   padding-right: 10px;
+
 }
 
 .step img {
@@ -324,21 +327,23 @@ span {
   left: 4px;
   gap: 0px;
   opacity: 0px;
+  display: flex;
 }
 
 .step h3 {
-  width: 348px;
-  height: 18px;
+  /* width: 348px;
+  height: 18px; */
   gap: 0px;
-  max-width: 300px;
+  display: flex;
+  max-width: 141px;
   padding-top: 10px;
-  padding-right: 60px;
+  /* padding-right: 60px; */
 }
 
 .step p {
   max-width: 300px;
   gap: 0px;
-  padding-left: 60px;
+  /* padding-left: 60px; */
   padding-top: 25px;
 }
 
@@ -358,11 +363,9 @@ span {
 }
 
 .info-image img {
-  max-width: 100%;
+  max-width: 520px;
   height: 478px;
-  width: 520px;
   object-fit: cover;
-  padding-bottom: 10px;
 }
 .section-head {
   display: flex;
@@ -472,7 +475,7 @@ span {
 }
 
 .number-box img {
-  max-width: 110px;
+  max-width: 50px;
   margin-bottom: 15px;
 }
 
@@ -590,10 +593,11 @@ span {
   height: 57px;
   gap: 0px;
   opacity: 0px;
+  margin-bottom: 166px;
 }
 
 .app-details h2 {
-  font-family: Genos;
+  font-family: poppins;
   font-size: 45px;
   font-weight: 700;
   line-height: 57.2px;
@@ -602,7 +606,7 @@ span {
 }
 
 .app-details p {
-  font-family: Roboto;
+  font-family: poppins;
   font-size: 18px;
   font-weight: 400;
   line-height: 25.2px;
@@ -960,6 +964,10 @@ footer {
     height: 284px;
   }
 
+  .app-details{
+    margin-bottom: 45px;
+  }
+
   .app-details h2{
     font-size: 30px;
     line-height: 15.2px;
@@ -994,7 +1002,7 @@ footer {
   }
 
   nav{
-    right: -471px;
+    right: -492px;
   } 
 
   .fa-bars:before {
