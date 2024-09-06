@@ -586,7 +586,7 @@ span {
   max-width: 100%;
   display: block;
   width: 1, 280px;
-  height: 646px;
+  height: 416px;
   top: 2718px;
   padding: 70px 80px 0 80px;
   gap: 80px;
@@ -1102,8 +1102,12 @@ footer {
 @media(max-width:430px){
   .step p{
     padding-left: 0px;
-    max-width: 130px;
-    font-size: 11px;
+    max-width: 111px;
+    font-size: 14px;
+  }
+
+  .info-image img{
+    width: 100%;
   }
 
   #works {
@@ -1115,11 +1119,15 @@ footer {
     line-height: 42.5px;
   }
 
-  .step h3{
+  .section-works p {
+    font-size: 14px;
+  }
+
+  /* .step h3{
     width: 190px;
     height: 19px;
-    font-size: 15px;
-  }
+    font-size: 14px;
+  } */
 
   .step{
     max-width: 292px;
@@ -1138,8 +1146,8 @@ footer {
   } */
 
   .details p{
-    font-size: 11px;
-    line-height: 15.2px;
+    font-size: 13px;
+    line-height: 21.2px;
   }
 
   .additional-info{
@@ -1147,7 +1155,7 @@ footer {
   }
 
   .section-numbers h2{
-    font-size: 21px;
+    font-size: 25px;
   }
 
   .section-numbers p{
@@ -1172,6 +1180,7 @@ footer {
   .num-box{
     width: 225px;
     margin-left: 26px;
+    height: 256px;
   }
 
   .num-box a{
@@ -1180,6 +1189,7 @@ footer {
 
   .sec-num h2{
     max-width: 377px;
+    font-size: 22px;
   }
 
   .num-row{
@@ -1193,7 +1203,7 @@ footer {
   }
 
   #num-sec{
-    height: 1638px;
+    height: 1378px;
   }
 
   .ct-button{
@@ -1253,6 +1263,7 @@ footer {
     width: 251px;
     height: 34px;
     padding-left: 177px;
+    object-fit: contain;
   }
 
   .nav-cart{
@@ -1280,8 +1291,8 @@ footer {
   }
 
   .step h3{
-    width: 115px;
-    font-size: 11px;
+    width: 105px;
+    font-size: 14px;
     height: 19px;
   }
 
@@ -1316,12 +1327,12 @@ footer {
 
   .footer-right{
     justify-content: normal;
-    margin-left: 36px;      
+    margin-left: 66px;      
   }
 
   .footer-center{
     justify-content: left;
-    margin-left: -8px;
+    margin-left: 20px;
     margin-bottom: 5px;
   }
 
@@ -1330,17 +1341,34 @@ footer {
      margin-bottom: 5px;
   }
 
+  .footer-left p{
+    padding-left: 30px;
+  }
+  
+
   .land-sec .sec-land{
     height: 775px;
   }
 
   .section-works .work-sec{
-    height: 971px;
+    height: 1019px;
   }
 
   .section-contact{
     height: 638px;
   }
+
+  .header-actions button {
+    width: 58px;
+    height: 0px;
+    font-size: 10px;
+    padding-bottom: 21px;
+    padding-left: 14px;
+}
+
+.cta-button{
+  padding: 10px 10px;
+}
   
 }
 
@@ -1391,6 +1419,18 @@ footer {
   width: 290px;
   height: 34px;
   padding-left: 212px;
+}
+
+.footer-center{
+  margin-left: -37px;
+}
+
+.footer-right{
+  margin-left: 13px;
+}
+
+.footer-left p{
+  margin-left: -51px;
 }
 }
 
