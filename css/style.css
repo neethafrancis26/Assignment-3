@@ -9,7 +9,7 @@
   height: 48px;
   gap: 8px;
   display: flex;
-  padding: 16px 2px;
+  padding: 11px 2px;
 }
 
 .nav-cart p {
@@ -23,7 +23,7 @@
   width: 17px;
   height: 18px;
   margin-left: 14px;
-  top: 25px;
+  top: 20px;
   background-color: #00a8a8;
   color: #ffffff;
   border-radius: 50%;
@@ -154,7 +154,7 @@ header {
 nav ul {
   list-style: none;
   display: flex;
-  padding-top: 26px;
+  padding-top: 22px;
 }
 
 nav ul li {
@@ -379,6 +379,8 @@ span {
   flex: 2;
   display: flex;
   flex-wrap: wrap;
+  padding: 20px;
+  margin-top: 25px;
 }
 
 .details {
@@ -475,7 +477,7 @@ span {
 }
 
 .number-box img {
-  max-width: 50px;
+  max-width: 48px;
   margin-bottom: 15px;
 }
 
@@ -483,15 +485,18 @@ span {
   font-size: 30px;
   margin-bottom: 10px;
   color: #161e21;
+  
 }
 
 .number-box p {
   font-size: 16px;
   color: #555;
+ 
 }
 
 .num-box a {
   text-decoration: none;
+ 
 }
 
 #num-sec {
@@ -564,8 +569,8 @@ span {
   justify-content: space-between;
   align-items: center;
   padding: 0px;
-  width: 1280px;
-  height: 646px;
+  max-width: 900px;
+  height: 412px;
   margin: 0 auto;
   color: black;
 }
@@ -598,7 +603,7 @@ span {
 
 .app-details h2 {
   font-family: poppins;
-  font-size: 45px;
+  font-size: 23px;
   font-weight: 700;
   line-height: 57.2px;
   text-align: left;
@@ -607,11 +612,12 @@ span {
 
 .app-details p {
   font-family: poppins;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 400;
-  line-height: 25.2px;
+  line-height: 22.2px;
   text-align: left;
   margin-bottom: 30px;
+  max-width: 370px;
 }
 
 .app-buttons {
@@ -689,19 +695,35 @@ footer {
   }
 
   .num-box{
-    height: 383px;
+    height: 332px;
+    flex: none;
+    min-width: 100px;
+  }
+
+  .num-row{
+    justify-content: space-between;
+    margin: auto;
+    max-width: 800px;
   }
 
   .num-box h3{
     font-size: 21px;
+    max-width: 330;
   } 
+
+  .num-box p{
+    max-width: 330px;
+  }
 
   .num-box img{
     max-width: 177px;
   }
 
   .sec-num .con{
-   width: 1024px;
+   /* width: 1024px; */
+
+   max-width: 810px;
+   height: 937;
   } 
 
   .phone-mockup img{
@@ -709,7 +731,7 @@ footer {
   }
 
   .app-section{
-    width: 1024px;
+    /* width: 1024px; */
     height: 527px;
   }
 
@@ -728,7 +750,7 @@ footer {
   }
 
   .sec-num .con{
-    height: 703px;
+    height: 862px;
   }
 
   nav .fa {
@@ -831,9 +853,21 @@ footer {
 
   .section-head{
     flex-direction: column;
+  }.details{
+    width: 100%;
+    max-width: 50%;
+  }
+  
+
+  .details p{
+    font-size: 16px;
+    max-width: 180px;
   }
 
-  
+  .info-details{
+    padding: 0;
+    margin-top: 0px;
+  }
 
 }
 
@@ -893,6 +927,7 @@ footer {
     padding-left: 0px;
     padding-top: 25px;
     max-width: 271px;
+    font-size: 16px;
   }
 
   .info-image img{
@@ -937,7 +972,7 @@ footer {
   }
 
   .details{
-    margin-left: 36px;
+    /* margin-left: 36px; */
   }
 
   .section-works .work-sec{
@@ -950,6 +985,10 @@ footer {
 
   .sec-num h2{
     font-size: 35PX;
+  }
+
+  .num-row{
+    justify-content: space-around;
   }
 
   .num-box img{
@@ -965,24 +1004,32 @@ footer {
   }
 
   .sec-num .con{
-    width: 765px;
+    width: 554px;
   }
 
   .num-box{
-    height: 344px;
+    height: 313px;
   }
 
   #num-sec{
-    height: 680px;
+    height: 1596px;
   }
 
   .phone-mockup img{
-    height: 294px;
+    height: 274px;
   }
 
   .app-section{
-    width: 768px;
-    height: 284px;
+    width: 583px;
+    /* height: 284px; */
+    height: 408px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .app-details p{
+    max-width: 323px;
+    margin-left: 110px;
   }
 
   .app-details{
@@ -990,13 +1037,19 @@ footer {
   }
 
   .app-details h2{
-    font-size: 30px;
+    font-size: 28px;
     line-height: 15.2px;
+    text-align: center;
   }
 
   .app-buttons a img{
     width: 106px;
     margin-top: -24px;
+  }
+
+  .app-buttons {
+    display: flex;
+    justify-content: center;
   }
 
   .footer-center a{
@@ -1029,6 +1082,20 @@ footer {
   .fa-bars:before {
     margin-left: 15px;
     color: black;
+  }
+
+  .section-contact{
+    height: 526px;
+  
+  }
+
+  .info-details{
+    justify-content: center;
+    margin-top: 13px;
+  }
+
+  #works{
+    max-width: 768px;
   }
 }
 
@@ -1066,9 +1133,9 @@ footer {
     margin-left: 47px;
   }
 
-  .details{
+  /* .details{
     margin-left: 8px;
-  }
+  } */
 
   .details p{
     font-size: 11px;
@@ -1126,7 +1193,7 @@ footer {
   }
 
   #num-sec{
-    height: 1325px;
+    height: 1638px;
   }
 
   .ct-button{
@@ -1146,11 +1213,14 @@ footer {
     margin-top: -295px;
     padding-left: 66px;
     max-width: 330px;
+    display: flex;
   }
 
   .app-details p{
-    max-width: 305px;
-    padding-left: 66px;
+    max-width: 223px;
+    /* padding-left: 66px; */
+    margin-left: 68px;
+    display: flex;
   }
 
   .app-details{
@@ -1159,7 +1229,9 @@ footer {
 
   .app-buttons{
     gap: 0px;
-    max-width: 425px;
+    max-width: 202px;
+    margin-left: 47px;
+    margin-top: 43px;
   }
 
   .footer .foot{
@@ -1169,11 +1241,12 @@ footer {
 
   .app-buttons a img{
     width: 67px;
-    margin-left: 93px;
+    margin-left: 24px;
   }
 
   .app-buttons a {
     width: 84px;
+    display: flex;
   }
 
   .logo img{
@@ -1262,8 +1335,62 @@ footer {
   }
 
   .section-works .work-sec{
-    height: 927px;
+    height: 971px;
+  }
+
+  .section-contact{
+    height: 638px;
   }
   
+}
+
+@media(max-width: 320px){
+  .work-steps{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .step{
+    max-width: 200px;
+    margin-left: 22px;
+    margin-bottom: -174px;
+  }
+
+  .step p{
+    max-width: 200px;
+  }
+
+  .work-steps{
+    margin: auto;
+  }
+
+  .step img{
+    margin: auto;
+    height: 27px;
+  }
+
+  .step h3{
+    font-size: 15px;
+    width: 200px;
+    justify-content: center;
+  }
+
+  .section-works .work-sec{
+    height: 1246px;
+  }
+
+   .hero-text h2 {
+    font-size: 48px;
+  }
+
+  .navbar {
+    margin-right: -113px;
+}
+
+.logo img{
+  width: 290px;
+  height: 34px;
+  padding-left: 212px;
+}
 }
 
