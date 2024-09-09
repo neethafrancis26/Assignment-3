@@ -121,6 +121,13 @@ header {
 .navbar {
   display: flex;
   align-items: center;
+
+  /* justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: relative; */
 }
 
 .navbar .logo {
@@ -155,10 +162,14 @@ nav ul {
   list-style: none;
   display: flex;
   padding-top: 22px;
+
+  /* gap:20px */
 }
 
 nav ul li {
   margin: 0 15px;
+
+  /* display: inline; */
 }
 
 nav ul li a {
@@ -201,7 +212,9 @@ nav ul li a {
   height: 750px;
   position: relative;
   color: #fff;
+  flex: wrap;
 }
+
 
 .hero-text {
   font-family: "Poppins", sans-serif;
@@ -690,6 +703,24 @@ footer {
 
 
 @media(max-width: 1024px){
+
+  /* .navbar ul {
+        width: 90%;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text,
+    .hero-image {
+        width: 100%;
+    }
+
+    .hero-image {
+        margin-top: 20px;
+    } */
   .section-works .work-sec{
     height: 830px;
   }
@@ -1130,7 +1161,7 @@ footer {
   } */
 
   .step{
-    max-width: 292px;
+    max-width: 126px;
     text-align: left;
     padding-right: 0px;
   }
@@ -1168,7 +1199,7 @@ footer {
   }
 
   #numbers-section{
-    height: 611px;
+    height: 966px;
   }
 
   .num-box p {
@@ -1178,8 +1209,8 @@ footer {
   }
 
   .num-box{
-    width: 225px;
-    margin-left: 26px;
+    width: 259px;
+    /* margin-left: 26px; */
     height: 256px;
   }
 
@@ -1286,9 +1317,9 @@ footer {
     width: 320px;
   }
 
-  .step{
+  /* .step{
     padding: 0px;
-  }
+  } */
 
   .step h3{
     width: 105px;
@@ -1351,7 +1382,7 @@ footer {
   }
 
   .section-works .work-sec{
-    height: 1019px;
+    height: 1017px;
   }
 
   .section-contact{
@@ -1369,6 +1400,15 @@ footer {
 .cta-button{
   padding: 10px 10px;
 }
+
+.numbers-row{
+  flex-direction: column;
+}
+
+/* .work-steps{
+  flex-direction: column;
+  height: 547px;
+} */
   
 }
 
@@ -1404,7 +1444,7 @@ footer {
   }
 
   .section-works .work-sec{
-    height: 1246px;
+    height: 1260px;
   }
 
    .hero-text h2 {
@@ -1431,6 +1471,10 @@ footer {
 
 .footer-left p{
   margin-left: -51px;
+}
+
+#numbers-section{
+  height: 997px;
 }
 }
 
